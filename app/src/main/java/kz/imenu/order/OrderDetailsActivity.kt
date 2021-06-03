@@ -22,72 +22,26 @@ class OrderDetailsActivity : AppCompatActivity() {
         val list = arrayListOf<CreateOrder>()
         list.add(
             CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
+                "https://assets.change.org/photos/9/ms/oi/XemSoIQisAlZnyj-800x450-noPad.jpg?1485754965",
+                "Snack Box",
+                "1490 тг",
+                1
             )
         )
         list.add(
             CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
+                "https://mcdonalds.kz/storage/928/O42fQvyiFw.png",
+                "McCombo 'Биг Тейсти' (стандартная порция)",
+                "1850 тг",
+                1
             )
         )
         list.add(
             CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
-            )
-        )
-        list.add(
-            CreateOrder(
-                "https://chefrestoran.ru/wp-content/uploads/2018/08/chef_BD_035.jpg",
-                "Донер",
-                "900 тг"
+                "https://mcdonalds.kz/storage/930/gs4SQ80bnD.png",
+                "McCombo 'Чикен Тейсти' (стандартная порция)",
+                "1700 тг",
+                1
             )
         )
 

@@ -21,15 +21,15 @@ class OrderListActivity : AppCompatActivity() {
         list.add(
             CreateOrder(
                 "https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png",
-                "Заказ 12323",
+                "Заказ #0004",
                 "Столик 12"
             )
         )
         list.add(
             CreateOrder(
                 "https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png",
-                "Заказ 123",
-                "Столик 9"
+                "Заказ #0005",
+                "Столик 16"
             )
         )
 

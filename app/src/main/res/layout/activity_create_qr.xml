@@ -4,31 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Номер столика" />
+        android:layout_margin="2dp"
+        android:background="@color/white"
+        android:hint="Номер столика"
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/generate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Создать QR" />
+        android:layout_margin="16dp"
+        android:background="@drawable/back_btn"
+        android:text="Создать QR"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
 
     <ImageView
         android:id="@+id/qrImage"
+        android:layout_marginHorizontal="48dp"
         android:layout_width="match_parent"
         android:layout_height="350dp"
+        android:scaleType="centerCrop"
         android:visibility="gone" />
 
     <Button
         android:id="@+id/download"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Скачать"
+        android:layout_margin="16dp"
+        android:background="@drawable/back_btn"
+        android:text="Скачать"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         android:visibility="gone" />
 
 </LinearLayout>

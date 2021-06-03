@@ -19,7 +19,8 @@ class CreateQRActivity : AppCompatActivity() {
         setContentView(R.layout.activity_create_qr)
 
         Picasso.get()
-            .load("https://hsto.org/getpro/habr/upload_files/74f/738/1a1/74f7381a15ca4bdcd4046005b780e63f.png")
+            .load(R.drawable.frame)
+            .fit()
             .into(qrImage)
 
         generate.setOnClickListener {

@@ -19,7 +19,7 @@ class OrderDetailsAdapter(
 
     override fun onBindViewHolder(holder: OrderDetailsViewHolder, position: Int) {
         holder.itemView.title.text = items[position].title
-        holder.itemView.count.text = items[position].count.toString()
+        holder.itemView.count.text = "Количество: " + items[position].count.toString()
 
         Picasso.get().load(items[position].image).into(holder.itemView.imageView)
     }

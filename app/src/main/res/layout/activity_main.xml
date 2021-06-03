@@ -22,11 +22,12 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
-            android:background="@color/blue"
+            android:background="@drawable/back_btn"
             android:gravity="center"
             android:text="Для заведении"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="32sp" />
+            android:textSize="28sp" />
 
         <Button
             android:id="@+id/clientBtn"
@@ -34,11 +35,12 @@
             android:layout_height="match_parent"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
-            android:background="@color/blue"
+            android:background="@drawable/back_btn"
             android:gravity="center"
             android:text="Сделать заказ"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="32sp" />
+            android:textSize="28sp" />
 
     </LinearLayout>
 

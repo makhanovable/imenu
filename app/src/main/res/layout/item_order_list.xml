@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cont"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white"
     android:clickable="true"
     android:focusable="true"
-    android:id="@+id/cont"
     android:foreground="?attr/selectableItemBackground"
     android:orientation="horizontal">
 
@@ -12,12 +14,15 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="16dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -25,13 +30,18 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Doner" />
+            android:text="Doner"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/count"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2" />
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -40,6 +50,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Принять" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/back_btn"
+        android:text="Принять"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
 
 </LinearLayout>

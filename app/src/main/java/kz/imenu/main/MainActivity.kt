@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
         clientBtn.setOnClickListener {
-//            startActivity(Intent(this, CreateOrderActivity::class.java))
+            //startActivity(Intent(this, CreateOrderActivity::class.java))
             openScanner()
         }
     }
