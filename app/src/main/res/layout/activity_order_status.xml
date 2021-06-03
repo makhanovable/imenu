@@ -18,14 +18,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/zz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Заказ #0005 готов"
+            android:text="Заказ #0005 принят"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:textStyle="bold" />
 
         <ProgressBar
+            android:id="@+id/p"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="24dp"
@@ -33,15 +35,17 @@
             android:progress="5" />
 
         <TextView
+            android:id="@+id/texxx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Не забудьте оплатить заказ"
+            android:text="Официант скоро принесет заказ\nПожалуйста подождите"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/pay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -49,7 +53,7 @@
         android:text="Оплатить"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />

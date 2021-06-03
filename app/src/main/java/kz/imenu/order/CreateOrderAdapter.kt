@@ -21,6 +21,9 @@ class CreateOrderAdapter(
         holder.itemView.title.text = items[position].title
         holder.itemView.price.text = items[position].price
         holder.itemView.count.text = items[position].count.toString()
+        holder.itemView.add.setOnClickListener {
+            holder.itemView.count.text = "1"
+        }
 
         Picasso.get().load(items[position].image).into(holder.itemView.imageView)
     }
