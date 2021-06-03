@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "kz.imenu"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -98,6 +98,7 @@ dependencies {
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
 
     implementation 'com.android.support:multidex:1.0.3'
     debugImplementation 'com.idescout.sql:sqlscout-server:4.1'

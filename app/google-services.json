@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171884882237",
+    "project_id": "kzimenu",
+    "storage_bucket": "kzimenu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171884882237:android:05151bca38b634ac2b7d54",
+        "android_client_info": {
+          "package_name": "kz.imenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171884882237-n2ksagre3opstmfbp70cf8tnub9lha5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRdE4CurqnRXtA__x93agSg-UAP3SC4Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171884882237-n2ksagre3opstmfbp70cf8tnub9lha5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
